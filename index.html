@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,700&family=Pridi:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/6e7d122190.js" crossorigin="anonymous"></script>
+
+</head>
+<body >
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>SARAN</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#">Portfolios</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i  class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Front end Developer</p>
+            <h1>Hi, I'm <span>SARAN</span> from Tamilnadu</h1>
+        </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="./IMAGES/about-img.jpg">
+               </div>
+               <div class=" .about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> <em> Seeking a challenging position in a reputable organization to expand and  utilize my <br>learning, skills and knowledge.Enthusiastic engineering graduate with basic <br>knowledge in coding and design.
+                    Ability to learn new softwares and technologies<br>quickly.
+                    Capability to work in teams by providing valuable support.Flexible to work <br> in any environment as required.</em></p>
+                <div class="tab-titles">
+                    <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li>C</li>
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>javascript</li>
+                        <li>java</li>
+                        <li>Bootstrap</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li>B.E - EEE <br> St joseph's college of engineering <br>Chennai <br>CGPA - 8.6</li>
+                        <li>HSC - 2021<br> Cheran vidhyalaya matric hr sec school<br>Dindigul<br>Percentage- 89.5%</li>
+                        <li>SSLC - 2019<br> Cheran vidhyalaya matric hr sec school<br>Dindigul<br>Percentage- 87.8%</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><h3>Projects</h3></li>
+                        <li> <a href="https://saran1231.github.io/drum-kit/"><span>Drum kit game</span></a> <br> It is simple music game<br>Developed using Html,css,javascript<br>Published in online</li>
+                        <li> <a href="https://saran1231.github.io/simon/"><span>Simon game</span></a> <br> It is game to test ur memory skill. <br>Developed using Html,css,javascript<br>Published  in online</li>
+                        <li><h3>Online - Profiles</h3> </li>
+                        <li> <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B6crDzeOrT5%2Br507RDlbRMg%3D%3D"><span>Linkedin</a> </li>
+                        <li> <a href="https://github.com/SARAN1231"><span>GitHub</span></a> </li>
+                        <li> <a href="http://www.skillrack.com/profile/390376/40e51ec9ad9b4378d0b1a03e7a6dfba071ff0fab 
+                            "><span>Skillrack</span></a> </li>
+                        
+                    </ul>
+                </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing 
+                    the plan for designing a website in a way that is functional and offers a good user experience</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>            
+                    <h2>Game design</h2>
+                    <p>Web designing is the process of planning, conceptualizing, and implementing 
+                    the plan for designing a website in a way that is functional and offers a good user experience</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="con-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>   saranprakash3112@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>   8667370075</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3B6crDzeOrT5%2Br507RDlbRMg%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/___smiley_hero___/"><i class="fa-brands fa-instagram"></i></a>
+                        <button type="button" class="btn btn2"> <a href="./IMAGES/infosys certificate.pdf" download> Download Resume</a></button>
+                    </div>
+                    
+                </div>
+                <div class="con-right">
+                    <form  class="form"  >
+                        <input label="Name" type="text" name="Name" placeholder="Your Name" required>
+                         <input  label="Email"type="email" name="Email"  placeholder="Your Email" required>
+                         <textarea label="Message" name="Message"   rows="6" placeholder="Your Message" ></textarea>
+                         <button type="button" class="btn btn2">Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div class="copyright">
+                    <p>copyright © Saran </p>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   
+<script src="index.js"></script>
+</body>
+</html>
